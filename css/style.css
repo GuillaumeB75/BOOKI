@@ -54,7 +54,38 @@ body {
 }
 
 /****** Header ***********/
-
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    margin-right: 50px;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .header-navigation {
+    display: flex;
+  }
+  
+  .header-navigation a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .header-navigation a:hover {
+    color: #007bff;
+  }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
