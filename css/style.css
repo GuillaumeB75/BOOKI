@@ -69,13 +69,14 @@ header {
 
 .logo {
     display: flex;
-    align-items: center;
     margin-right: 50px;
   }
   
   .logo img {
     height: 19px;
     width: 61.09px;
+    top: 30px;
+    left: 30px;
   }
   
   .header-navigation a {
@@ -91,6 +92,10 @@ header {
     border-top: #0065FC 3px solid;
   }
   
+/****** Info Group ***********/
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
