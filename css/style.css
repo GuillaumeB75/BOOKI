@@ -33,9 +33,11 @@ body {
 
 .card {
     background-color: white;
+    background-size: contain;
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+
 }
 
 .card img {
@@ -59,14 +61,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
     height: 79px;
-  }
-  
-  .logo {
+}
+
+.logo {
+    display: flex;
+    align-items: center;
     margin-right: 50px;
   }
   
@@ -75,17 +78,14 @@ header {
     width: 61.09px;
   }
   
-  .header-navigation {
-    display: flex;
-  }
-  
   .header-navigation a {
     margin-right: 20px;
+    padding-top: 14px;
     font-size: 18px;
     color: #333;
     text-decoration: none;
   }
-  
+
   .header-navigation a:hover {
     color: #0065FC;
     border-top: #0065FC 3px solid;
@@ -112,14 +112,20 @@ header {
     width: 65%;
 }
 
-.hebergements-cards .card {
+.hebergements-cards {
     display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hebergements-cards .card {    /***** position du texte par rapport à l'image ******/
+    display: flex;
+    width: 33%;
     flex-direction: column;
     margin-top: 33px;
 }
 
 .hebergements-cards img {
-    width: 33%;
     height: 136px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -194,7 +200,7 @@ header {
 }
 
 
-
+/****** Footer ***********/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -202,6 +208,12 @@ header {
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
+
+    .header-navigation a:hover {
+        color: #0065FC;
+        border-bottom: #0065FC 3px solid;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
