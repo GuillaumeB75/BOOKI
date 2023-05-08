@@ -108,8 +108,9 @@ header {
 
 /****** Hebergements ***********/
 
-.hebergements {
+.hebergements {    /***** hébergement titre ******/
     width: 65%;
+
 }
 
 .hebergements-cards {
@@ -117,11 +118,12 @@ header {
     flex-wrap: wrap;
     gap: 30px;
     
+    
 }
 
 .hebergements-cards .card {    /***** position du texte par rapport à l'image ******/
     display: flex;
-    width: 33%;
+    width: 29%;
     flex-direction: column;
     margin-top: 33px;
    
@@ -204,6 +206,10 @@ header {
 
 
 /****** Footer ***********/
+
+
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
