@@ -1,4 +1,5 @@
 /****** General ***********/
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -54,6 +55,7 @@ body {
 }
 
 /****** Header ***********/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -61,6 +63,7 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
+    height: 79px;
   }
   
   .logo {
@@ -68,8 +71,8 @@ header {
   }
   
   .logo img {
-    height: 50px;
-    width: auto;
+    height: 19px;
+    width: 61.09px;
   }
   
   .header-navigation {
@@ -84,7 +87,7 @@ header {
   }
   
   .header-navigation a:hover {
-    color: #007bff;
+    color: #0065FC;
   }
   
 /****** Hebergements And Populaires ***********/
@@ -103,6 +106,7 @@ header {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
 }
@@ -143,6 +147,7 @@ header {
 }
 
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
 }
@@ -194,6 +199,7 @@ header {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
@@ -228,6 +234,7 @@ header {
 }
 
 /* Small devices (phones, less than 768px) */
+
 @media (max-width: 767.98px) {
     /* ... */
 }
