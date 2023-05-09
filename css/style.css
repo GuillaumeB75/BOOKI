@@ -60,6 +60,36 @@ body {
 }
 
 /****** HEADER ***********/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    width: 61.09px;
+    height: 19px;
+    padding: 30px;
+    padding-left: 30px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.header-navigation-link {
+    margin-right: 20px;
+    padding-top: 14px;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #0065FC;
+    border-top: #0065FC 3px solid;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
