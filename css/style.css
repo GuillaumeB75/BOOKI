@@ -93,8 +93,12 @@ body {
 
 .header-navigation a:hover {
     color: #0065FC;;
-    border-top: #0065FC 2px solid;
+    border-top: #0065FC 3px solid;
 }
+
+/****** INFO-GROUP ***********/
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
