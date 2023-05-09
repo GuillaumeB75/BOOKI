@@ -83,16 +83,17 @@ body {
 }
 
 .header-navigation-link {
-    margin-right: 20px;
+    
+    padding: 29px;
     font-size: 16px;
     color: #333;
     text-decoration: none;
-    
+    text-align:start
 }
 
 .header-navigation a:hover {
     color: #0065FC;;
-    border-top: #0065FC 3px solid;
+    border-top: #0065FC 2px solid;
 }
 
 /****** Hebergements And Populaires ***********/
