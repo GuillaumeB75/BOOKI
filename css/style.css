@@ -59,7 +59,7 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
     color: var(--main-bg-color)
 }
 
@@ -258,12 +258,57 @@ i.fa-solid.filters-search-icon {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+   
 }
 
 .hebergements-title {                   /****** CRÉE ***********/
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.hebergements-cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    width: 250.33px;
+    
+    
+}
+
+.hebergements-cards img {
+    width: 250.33px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
 }
 
 .hebergements-secondTitle {            /****** CRÉE ***********/
@@ -319,6 +364,7 @@ i.fa-solid.filters-search-icon {
     margin-bottom: 5px;
 }
 
+/****** FOOTER ***********/
 
 
 
