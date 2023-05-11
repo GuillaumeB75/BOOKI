@@ -418,6 +418,12 @@ i.fa-solid.filters-search-icon {
     justify-content: space-around;
 
 }
+
+.footer-block {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
