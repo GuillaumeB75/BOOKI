@@ -277,7 +277,7 @@ i.fa-solid.filters-search-icon {
    
 }
 
-.hebergements-title {                   /****** CRÉE ***********/
+.hebergements-title {         /****** CRÉE ***********/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -315,9 +315,6 @@ i.fa-solid.filters-search-icon {
     display: flex;
     flex-direction: column;
     
-    
-   
-    
 }
 
 .hebergements-cards .card-title {
@@ -335,7 +332,7 @@ i.fa-solid.filters-search-icon {
     margin-bottom: 10px;
 }
 
-.hebergements-secondTitle {            /****** CRÉE ***********/
+.hebergements-secondTitle {        /****** CRÉE ***********/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -388,6 +385,12 @@ i.fa-solid.filters-search-icon {
     margin-bottom: 5px;
 }
 
+
+/****** ACTIVITY ***********/
+
+
+
+
 /****** FOOTER ***********/
 
 .footer {
@@ -420,7 +423,7 @@ i.fa-solid.filters-search-icon {
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
