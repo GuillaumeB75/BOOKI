@@ -436,7 +436,7 @@ i.fa-solid.filters-search-icon {
     flex-direction: row;
     justify-content: flex-start;
     gap: 20%;
-    padding: 20px;
+    padding-left: 20px;
 
 }
 
