@@ -388,6 +388,21 @@ i.fa-solid.filters-search-icon {
 
 /****** ACTIVITY ***********/
 
+.activity-cards {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.activity-cards img {
+    width: 297.5px;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 
 
 
