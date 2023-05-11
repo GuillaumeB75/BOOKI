@@ -7,6 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+    
 }
 
 a:any-link {
@@ -41,7 +42,8 @@ body {
 }
 
 .section-secondTitle {
-    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
 
 }
@@ -158,6 +160,7 @@ body {
     margin-right: -10px;
     width: 350px;
     font-size: 17px;
+    text-align: center;
     align-items: center;
 
     }
@@ -166,11 +169,14 @@ body {
         color:black;
         text-align: center;
         
+        
     }
+
 
 .form-search:focus {
     border: 2px solid #F2F2F2;
     outline: none;
+    
     }
     
 .form-submit {
@@ -184,6 +190,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     }
     
 .form-submit:hover {
@@ -208,6 +215,7 @@ body {
 .filters-title {
     padding-right: 15px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .filters-search {
@@ -221,12 +229,12 @@ body {
     border-radius: 50px;
     margin: 20px 15px 15px 15px;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold;
     transition: transform 250ms ease-in-out;
 }
 
 .filters-search:hover{
-    transform: scale(1.1);
+    background-color:#DEEBFF;
     
 }
 
