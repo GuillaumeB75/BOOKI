@@ -434,8 +434,9 @@ i.fa-solid.filters-search-icon {
 .footer-contenairs {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: flex-start;
+    gap: 20%;
+    padding-left: 20px;
 
 }
 
@@ -445,9 +446,7 @@ flex-direction: column;
 
 }
 
-.footer-block-title {
 
-}
 
 .footer-block-list {
     padding: 0%;
