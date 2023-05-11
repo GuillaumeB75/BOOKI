@@ -476,12 +476,13 @@ flex-direction: column;
 
     .populaires-cards {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
     }
 
     .populaires-cards .card {
-        width: 30%;
+        width: 100%;
+       
     }
 
     .populaires-cards .card-title {
