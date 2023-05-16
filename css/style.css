@@ -160,7 +160,7 @@ body {
     border-radius: 0 15px 15px 0;
     width: 200px;
     font-size: 17px;
-    transition: background-color 350ms ease-in-out;
+    
     height: 50px;
     display: flex;
     justify-content: center;
@@ -168,11 +168,7 @@ body {
     font-weight: bold;
     }
     
-.form-submit:hover {
-    color: #0065FC;
-    background-color: #DEEBFF;
-    }
-    
+
 .submit-text-icon {
     font-size: 0;
     }
@@ -517,4 +513,116 @@ padding: 5px 0px 5px 0px;
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .html {
+        margin: 0;
+    }
+
+    body {
+        margin: 0;
+    } 
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-logo {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .header-navigation {
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .header-navigation-link {
+        font-size: 16px;
+        color: #333;
+        text-decoration: none;
+       
+    }
+
+    .header-navigation-link:hover {
+    
+        border-bottom: #0065FC 3px solid;
+    }
+
+    .header-navigation a:hover {
+        border-top: none;
+    }
+    
+
+/****
+    <button class="form-submit">
+    <span class="form-submit-text">Rechercher</span>
+    <i class="fa-solid fa-magnifying-glass submit-text-icon"></i>
+  </button>
+    ***/
+
+    .form-submit {
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .form-submit-text {
+        display: none;
+    }
+
+    .submit-text-icon {
+        font-size: 20px;
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    .filters {
+        margin: 5px 0px 10px 0px;
+
+    }
+
+    .filters-title {
+        width: 100%;
+        font-size: 18px;
+       
+    }
+
+    .filters-search {
+        width: 170px;
+        
+      
+    }
+
+    .hosting {
+        flex-direction: column-reverse;
+    }
+
+    .hosting-background {
+        border-radius: 0px;
+ 
+    }
+
+
+
+
+
+
+    .footer {
+
+    }
+
+    .footer-contenairs {
+        flex-direction: column;
+
+    }
+
+
+
+
+
+
+
+
 }
