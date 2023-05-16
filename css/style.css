@@ -233,6 +233,7 @@ i.fa-solid.filters-search-icon {
 
 
 /****** Hebergements ***********/
+
 .hosting {
    display: flex;
    flex-direction: row;
@@ -249,7 +250,9 @@ border-radius: 20px;
 
 .hosting-title, .hosting-popular-header-icon {
     margin: 30px 30px 15px 30px;
+    font-size: 20px;
 }
+
 .hosting-card {
     padding: 5px;
     margin: 15px 5px;
@@ -311,59 +314,56 @@ border-radius: 20px;
     height: 135px;
 }
 
-
-/****** Populaires ***********/
-.populaires {
-    width: 32%;
+.hosting-main-card-footer {
+    padding: 20px;
 }
 
-.populaires-title {
+.hosting_main_card_footer_link:hover {
+    color: #0065FC;
+    text-decoration: underline;
+}
+
+
+/****** POPULAR ***********/
+
+.hosting-popular {
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 15px;
+    flex: 1;
+
+}
+
+.hosting-popular-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.populaires-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+.hosting-popular-header-icon {
+    font-size: 20px;
 }
 
-.populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
-    width: 369px;
-    height: 144px;
-}
-
-.populaires-cards img {
-    width: 123px;
-    height: 144px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.populaires-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
+.hosting-popular-cards {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+.hosting-popular-card {
+    width: 90%;
+    height: auto;
 }
 
-.populaires-cards .card-subtitle {
-    margin: 0;
+.hosting-popular-card-fig {
+    display: flex;
 }
 
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
+.hosting-popular-card-fig-img {
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    min-width: 40%;
+    height: 145px;
 }
 
 
