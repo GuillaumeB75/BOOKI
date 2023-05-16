@@ -28,7 +28,10 @@ a:any-link {
 
 
 body {
-    margin: -15px 0px 0px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .main {
@@ -250,7 +253,7 @@ border-radius: 20px;
 
 .hosting-title, .hosting-popular-header-icon {
     margin: 30px 30px 15px 30px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .hosting-card {
@@ -316,6 +319,8 @@ border-radius: 20px;
 
 .hosting-main-card-footer {
     padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .hosting_main_card_footer_link:hover {
