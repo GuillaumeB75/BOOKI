@@ -100,7 +100,8 @@ body {
 
 .form {
     display: flex;
-    justify-content: flex-start;
+    
+    
 }
 
 .form-icon {
@@ -133,6 +134,7 @@ body {
 ::placeholder {
     color: black;
     text-align: center;
+    font-weight: bold;
 }
 
 .form-search:focus {
@@ -179,10 +181,11 @@ body {
     justify-content: center;
     height: 50px;
     padding: 25px;
+    padding: 15px 19px 15px 19px;
     background-color: white;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
-    margin: 20px 15px 15px 15px;
+    margin: 20px 10px 15px 0px;
     font-size: 16px;
     font-weight: bold;
     transition: transform 250ms ease-in-out;
@@ -535,16 +538,26 @@ i.fa-solid.filters-search-icon {
   </button>
     ***/
 
+    .info-group {
+        padding: 0px 20px 0px 20px;
+    }
+    
+    .search-header-title {
+        padding-top: 30px;
+        font-size: 30px;
+        
+    }
 
     
-
     .form-submit {
+        
         border-radius: 15px;
         width: 100%;
     }
 
     .form-submit-text {
         display: none;
+        
     }
 
     .submit-text-icon {
@@ -561,10 +574,11 @@ i.fa-solid.filters-search-icon {
     .filters-title {
         width: 100%;
         font-size: 18px;
+        padding-top: 10px;
     }
 
     .filters-search {
-        width: 170px;
+        width: 48%;
     }
 
     .hosting {
@@ -581,6 +595,7 @@ i.fa-solid.filters-search-icon {
 
     .hosting-popular-cards {
         flex-direction: column;
+        padding: 30px 20px 30px 20px;
     }
 
     .hosting-popular {
