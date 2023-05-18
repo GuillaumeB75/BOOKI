@@ -125,7 +125,7 @@ body {
     justify-content: center;
     border: 1px solid #f2f2f2;
     margin-right: -10px;
-    width: 350px;
+    flex-grow: 1;
     font-size: 17px;
     text-align: center;
     align-items: center;
@@ -148,7 +148,6 @@ body {
     border-radius: 0 15px 15px 0;
     width: 200px;
     font-size: 17px;
-
     height: 50px;
     display: flex;
     justify-content: center;
@@ -200,6 +199,8 @@ i.fa-solid.filters-search-icon {
     align-items: center;
     justify-content: center;
     padding-right: 10px;
+    
+    
 }
 
 .filters-results {
@@ -550,9 +551,9 @@ i.fa-solid.filters-search-icon {
 
     
     .form-submit {
-        
         border-radius: 15px;
         width: 100%;
+        
     }
 
     .form-submit-text {
@@ -579,11 +580,22 @@ i.fa-solid.filters-search-icon {
 
     .filters-search {
         width: 48%;
+        padding-left: 30px;
+        justify-content: flex-start;
+       
+        
     }
+
+    .filters-search-title {
+        padding-left: 10px;
+    }
+
 
     .hosting {
         flex-direction: column-reverse;
-    }
+    
+
+    }    
 
     .hosting-background {
         border-radius: 0;
@@ -619,6 +631,8 @@ i.fa-solid.filters-search-icon {
 
     .hosting-main-card {
         width: 95%;
+        box-shadow: 0 0 16px #0000001f;
+        overflow: hidden;
     }
 
     .hosting-main-card-fig-img {
