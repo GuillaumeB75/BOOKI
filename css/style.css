@@ -33,7 +33,7 @@ body {
 }
 
 .main {
-    padding: 0px 15px 0px 15px;
+    padding: 20px 15px 0px 15px;
 }
 
 .euro {
@@ -56,6 +56,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .header-logo {
@@ -108,7 +109,7 @@ body {
 
 .form {
     display: flex;
-    width: 450px;
+    width: 377px;
     height: 50px;
 
 }
@@ -130,7 +131,7 @@ body {
 
 .form-search {
     display: flex;
-    
+    width: 100%;
     border: 1px solid #f2f2f2;
     margin-right: -5px;
     font-size: 17px;
@@ -142,6 +143,7 @@ body {
     color: black;
     text-align: center;
     font-weight: bold;
+    
 }
 
 .form-search:focus {
@@ -153,7 +155,7 @@ body {
     color: white;
     background-color: #0065fc;
     border-radius: 0 15px 15px 0;
-    width: 200px;
+    width: 130px;
     font-size: 17px;
     display: flex;
     justify-content: center;
@@ -219,7 +221,7 @@ i.fa-solid.filters-search-icon {
     padding-right: 10px;
 }
 
-/****** Hebergements ***********/
+/****** Hebergements/ HOSTING ***********/
 
 .hosting {
     display: flex;
@@ -231,6 +233,7 @@ i.fa-solid.filters-search-icon {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 20px;
+    
 }
 
 .hosting-title,
@@ -263,7 +266,7 @@ i.fa-solid.filters-search-icon {
 }
 
 .hosting-card-fig-caption-title {
-    font-size: 16px;
+    font-size: 15px;
     
 }
 
@@ -352,6 +355,11 @@ i.fa-solid.filters-search-icon {
     width: 40%;
     min-width: 40%;
     height: 145px;
+}
+
+.hosting-popular-card .card-rating {
+    margin-top: auto;
+    
 }
 
 /****** ACTIVITY ***********/
@@ -483,6 +491,8 @@ i.fa-solid.filters-search-icon {
         width: 30%;
     }
 
+    
+
     .activity {
         margin: 0px;
     }
@@ -505,6 +515,18 @@ i.fa-solid.filters-search-icon {
 
     .activity-card-fig-caption {
         margin-top: 16px;
+       
+    }
+
+    .activity-card-fig-caption-title {
+        margin-top: 0;
+        font-size: 15px;
+        
+    }
+
+    .hosting-popular-card .card-rating {
+        padding-top: 0px;
+        
     }
 }
 
@@ -561,12 +583,7 @@ i.fa-solid.filters-search-icon {
         border-top: none;
     }
 
-    /****
-    <button class="form-submit">
-    <span class="form-submit-text">Rechercher</span>
-    <i class="fa-solid fa-magnifying-glass submit-text-icon"></i>
-  </button>
-    ***/
+   
 
     .info-group {
         padding: 0px 20px 0px 20px;
@@ -578,6 +595,11 @@ i.fa-solid.filters-search-icon {
 
     }
 
+
+    .form{
+        width: 100%;
+    }
+    
     .form-search {
         width: 100%;
     }
@@ -585,6 +607,7 @@ i.fa-solid.filters-search-icon {
     .form-submit {
         border-radius: 15px;
         width: 50px;
+        
         
     }
 
@@ -612,8 +635,8 @@ i.fa-solid.filters-search-icon {
     }
 
     .filters-search {
-        width: 48%;
-        padding-left: 30px;
+        width: 47%;
+        padding-left: 50px;
         justify-content: flex-start;
         
 
@@ -644,13 +667,19 @@ i.fa-solid.filters-search-icon {
         border-radius: 0;
     }
 
+   
+    .hosting-popular-header-title {
+        padding-left: 0px;
+
+    }
+
     .hosting-card {
         margin: 10px;
     }
 
     .hosting-popular-cards {
         flex-direction: column;
-        padding: 30px 20px 30px 20px;
+        padding: 30px 10px 30px 10px;
     }
 
     .hosting-popular {
@@ -678,12 +707,26 @@ i.fa-solid.filters-search-icon {
         overflow: hidden;
     }
 
+    .hosting-main-cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .hosting-main-card-fig-img {
         height: 175px;
     }
 
+    .hosting-main-card-footer-link {
+        padding-left: 20px;
+    }
+
+    .activity {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .activity-header {
-        margin: 0px 0px 10px 30px;
+        margin: 0px 0px 10px 10px;
     }
 
     .activity-cards {
@@ -701,9 +744,13 @@ i.fa-solid.filters-search-icon {
 
     .activity-card-fig-caption {
         margin-left: 20px;
+        margin-top: 40px;
     }
 
     .footer-contenairs {
         flex-direction: column;
+        padding-left: 30px;
     }
+
+
 }
