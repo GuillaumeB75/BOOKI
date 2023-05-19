@@ -56,7 +56,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .header-logo {
@@ -136,14 +136,14 @@ body {
     margin-right: -5px;
     font-size: 17px;
     text-align: center;
-    
+
 }
 
 ::placeholder {
     color: black;
     text-align: center;
     font-weight: bold;
-    
+
 }
 
 .form-search:focus {
@@ -233,7 +233,7 @@ i.fa-solid.filters-search-icon {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 20px;
-    
+
 }
 
 .hosting-title,
@@ -267,7 +267,7 @@ i.fa-solid.filters-search-icon {
 
 .hosting-card-fig-caption-title {
     font-size: 15px;
-    
+
 }
 
 .hosting-card-form {
@@ -359,7 +359,7 @@ i.fa-solid.filters-search-icon {
 
 .hosting-popular-card .card-rating {
     margin-top: auto;
-    
+
 }
 
 /****** ACTIVITY ***********/
@@ -469,8 +469,8 @@ i.fa-solid.filters-search-icon {
         width: 22%;
         padding-left: 30px;
         padding-right: 30px;
-       
-       
+
+
 
 
     }
@@ -491,7 +491,7 @@ i.fa-solid.filters-search-icon {
         width: 30%;
     }
 
-    
+
 
     .activity {
         margin: 0px;
@@ -515,18 +515,18 @@ i.fa-solid.filters-search-icon {
 
     .activity-card-fig-caption {
         margin-top: 16px;
-       
+
     }
 
     .activity-card-fig-caption-title {
         margin-top: 0;
         font-size: 15px;
-        
+
     }
 
     .hosting-popular-card .card-rating {
         padding-top: 0px;
-        
+
     }
 }
 
@@ -583,7 +583,7 @@ i.fa-solid.filters-search-icon {
         border-top: none;
     }
 
-   
+
 
     .info-group {
         padding: 0px 20px 0px 20px;
@@ -596,10 +596,10 @@ i.fa-solid.filters-search-icon {
     }
 
 
-    .form{
+    .form {
         width: 100%;
     }
-    
+
     .form-search {
         width: 100%;
     }
@@ -607,14 +607,14 @@ i.fa-solid.filters-search-icon {
     .form-submit {
         border-radius: 15px;
         width: 50px;
-        
-        
+
+
     }
 
-    
+
     .form-submit-text {
         display: none;
-      
+
     }
 
     .submit-text-icon {
@@ -638,7 +638,7 @@ i.fa-solid.filters-search-icon {
         width: 47%;
         padding-left: 50px;
         justify-content: flex-start;
-        
+
 
 
     }
@@ -650,12 +650,12 @@ i.fa-solid.filters-search-icon {
     .hosting-popular-card-fig-caption-desc .card-subtitle {
         margin-top: 5px;
 
-        
+
     }
 
     .hosting-popular-card .card-rating {
         padding-top: 40px;
-        
+
     }
 
     .hosting {
@@ -667,7 +667,7 @@ i.fa-solid.filters-search-icon {
         border-radius: 0;
     }
 
-   
+
     .hosting-popular-header-title {
         padding-left: 0px;
 
