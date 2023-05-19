@@ -736,15 +736,20 @@ i.fa-solid.filters-search-icon {
     .activity-card {
         margin: 10px;
         width: 95%;
+        height: 240px;
+    }
+
+    .activity-card-fig {
+        height: 240px;
     }
 
     .activity-card-fig-img {
-        height: 170px;
+        height: 180px;
     }
 
     .activity-card-fig-caption {
         margin-left: 20px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .footer-contenairs {
