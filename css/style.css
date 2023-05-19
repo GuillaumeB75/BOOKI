@@ -44,6 +44,14 @@ body {
     color: var(--main-bg-color);
 }
 
+.card-subtitle {
+    padding-left: 5px;
+}
+
+.card-rating {
+    padding-left: 5px;
+}
+
 /****** HEADER ***********/
 .header {
     display: flex;
@@ -60,7 +68,7 @@ body {
 .header-navigation {
     display: flex;
     align-items: center;
-    
+
 }
 
 .header-navigation-link {
@@ -102,7 +110,7 @@ body {
     display: flex;
     width: 450px;
     height: 50px;
-    
+
 }
 
 .form-icon {
@@ -122,6 +130,7 @@ body {
 
 .form-search {
     display: flex;
+    
     border: 1px solid #f2f2f2;
     margin-right: -5px;
     font-size: 17px;
@@ -196,8 +205,8 @@ i.fa-solid.filters-search-icon {
     align-items: center;
     justify-content: center;
     padding-right: 10px;
-    
-    
+
+
 }
 
 .filters-results {
@@ -255,6 +264,7 @@ i.fa-solid.filters-search-icon {
 
 .hosting-card-fig-caption-title {
     font-size: 16px;
+    
 }
 
 .hosting-card-form {
@@ -435,6 +445,28 @@ i.fa-solid.filters-search-icon {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+
+    .filters {
+        margin: 5px 0px 10px 0px;
+    }
+
+    .filters-title {
+        width: 100%;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .filters-search {
+        width: 22%;
+        padding-left: 30px;
+        padding-right: 30px;
+       
+       
+
+
+    }
+
     .hosting {
         flex-direction: column;
     }
@@ -507,7 +539,7 @@ i.fa-solid.filters-search-icon {
 
     .header-navigation {
         justify-content: center;
-       
+
         padding: 0;
     }
 
@@ -539,32 +571,27 @@ i.fa-solid.filters-search-icon {
     .info-group {
         padding: 0px 20px 0px 20px;
     }
-    
+
     .search-header-title {
         padding-top: 30px;
         font-size: 30px;
-        
-    }
 
-    .form {
-        width: 100%;
-       
     }
 
     .form-search {
-       
+        width: 100%;
     }
 
     .form-submit {
         border-radius: 15px;
-        
-       
+        width: 50px;
         
     }
 
+    
     .form-submit-text {
         display: none;
-        
+      
     }
 
     .submit-text-icon {
@@ -588,20 +615,30 @@ i.fa-solid.filters-search-icon {
         width: 48%;
         padding-left: 30px;
         justify-content: flex-start;
-       
         
+
+
     }
 
     .filters-search-title {
         padding-left: 10px;
     }
 
+    .hosting-popular-card-fig-caption-desc .card-subtitle {
+        margin-top: 5px;
+
+        
+    }
+
+    .hosting-popular-card .card-rating {
+        padding-top: 40px;
+        
+    }
 
     .hosting {
         flex-direction: column-reverse;
-    
 
-    }    
+    }
 
     .hosting-background {
         border-radius: 0;
